@@ -1,0 +1,84 @@
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #8a35c8;
+}
+
+.txt-topo-site h2 {
+    color: #5c5c5c;
+    font-size: 1.3rem;
+    margin: 30px 0;
+    font-weight: 400;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.logo-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 22px;
+    color: #8a35c8;
+    margin-bottom: 30px;
+}
+
+.logo-tech img {
+    width: 22px;
+    height: 22px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    border-radius: 15%; /* Arredondamento das bordas */
+    border: 5px solid rgba(138, 53, 200, 0.3); /* Borda com efeito sutil */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Sombra para destacar a imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço da imagem */
+}
+
+/* .container-foto img {
+	width: 100%;
+	border-radius: 50%;
+} */
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}

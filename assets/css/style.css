@@ -1,0 +1,105 @@
+@import url('header.css');
+@import url('topo-do-site.css');
+@import url('certificados.css');
+@import url('sobre.css');
+@import url('portfolio.css');
+@import url('formulario.css');
+@import url('footer.css');
+@import url('responsivo.css');
+
+
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#8a35c8;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nome_faby h1 {
+    font-size: 48px;
+    background: linear-gradient(to right, #8a35c8, #00eea2, #8a35c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button, .btn-curriculo button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#8a35c8;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #fff;
+}
+
+div .btn-entra-contato{
+    display: inline;
+}
+
+.curriculo-contato {
+    display: flex;
+    gap: 20px;
+}
+.btn-entra-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background: none;
+    border-color: #8a35c8;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #fff;
+}
+
+.btn-curriculo {
+    margin-bottom: 25px;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #8a35c8;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #8a35c8;
+    transform: scale(1.05);
+}
+
+
+

@@ -1,0 +1,81 @@
+section.certificados {
+    padding: 40px 4%;
+}
+
+section.certificados .flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.certificados .certificados-box {
+    display: none;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    width: 300px; 
+    height: 300px;
+}
+
+.certificados-box.ativo {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.btn-mostrar-certificados.remover {
+    display: none;
+}
+
+.certificados .certificados-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+.certificados .certificados-box i {
+    font-size: 70px;
+    color: #8a35c8;
+    
+}
+
+.certificados .certificados-box h3 {
+    font-size: 28px;
+    margin: auto 0;
+}
+
+.certificados .certificados-box .btnCertificado {
+    background-color: #000;
+    border-radius: 30px;
+    color: #fff;
+    border-color: #8a35c8;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.certificados .certificados-box .btnCertificado:hover {
+    box-shadow: none;
+}
+
+.btn-mostrar-certificados {
+    background: none;
+	border-color: #8a35c8;
+	border-radius: 30px;
+	color: #fff;
+	padding: 10px 40px;
+    margin-top: 45px !important;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    transition: .2s;
+	cursor: pointer;
+   
+}
