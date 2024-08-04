@@ -110,4 +110,17 @@
     footer .line-footer {
         text-align: center;
     }
+
+    footer .line-contatos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+        gap: 20px;
+    }
+
+    footer .line-contatos p{
+        font-size: 15px;
+    }
 }

@@ -16,8 +16,16 @@ footer .line-footer {
     text-align: center;
 }
 
+footer .line-contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px;
+}
+
 .logo_faby_footer img {
-    width: 80px;
+    width: 60px;
 }
 
 
@@ -25,12 +33,12 @@ footer .line-footer {
     border-top: 2px solid #8a35c8;
 }
 
-footer .line-footer p i {
+footer .line-contatos p i {
     color: #8a35c8;
     font-size: 22px;
 }
 
-footer .line-footer p a {
+footer .line-contatos p, a {
     text-decoration: none;
     color: #fff;  
 }

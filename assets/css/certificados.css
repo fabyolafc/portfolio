@@ -5,6 +5,7 @@ section.certificados {
 section.certificados .flex {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     flex-wrap: wrap;
     gap: 60px;

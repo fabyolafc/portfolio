@@ -47,18 +47,13 @@ section.topo-do-site .flex {
 .logo-tech i {
     width: 30px; /* Ajuste o tamanho conforme necessário */
     height: 30px; /* Ajuste o tamanho conforme necessário */
-    border: 2px solid #8a35c8; /* Cor da borda roxa */
-    border-radius: 50%; /* Para criar um círculo em torno dos ícones */
-    padding: 5px; /* Espaçamento interno da borda */
-    transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+     /* Para criar um círculo em torno dos ícones */
+    padding: 5px; /* Espaçamento interno da borda */border: 2px solid #8a35c8; /* Cor da borda roxa */
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.logo-tech img:hover,
-.logo-tech i:hover {
-    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
 }
 
 .container-foto .img-topo-site img {
