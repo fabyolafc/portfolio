@@ -1,5 +1,9 @@
 header {
-    padding: 40px 4%;
+    padding: 10px 4%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #000;
 }
 
 header>.interface {

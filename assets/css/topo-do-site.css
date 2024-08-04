@@ -1,3 +1,12 @@
+#particles-js {
+    position: absolute; /* Posicionamento absoluto para cobrir toda a seção */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Baixa z-index para ficar atrás do conteúdo */
+}
+
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -18,46 +27,47 @@ section.topo-do-site .flex {
     color: #8a35c8;
 }
 
-.txt-topo-site h2 {
-    color: #5c5c5c;
-    font-size: 1.3rem;
+.txt-topo-site h2 { 
+    font-size: 1.5rem;
     margin: 30px 0;
     font-weight: 400;
-
-    letter-spacing: 5px;
-    text-transform: uppercase;
+    color: #dcdcdc; 
 }
 
 .logo-tech {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    font-size: 22px;
+    font-size: 20px;
     color: #8a35c8;
     margin-bottom: 30px;
 }
 
-.logo-tech img {
-    width: 22px;
-    height: 22px;
+.logo-tech img,
+.logo-tech i {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px; /* Ajuste o tamanho conforme necessário */
+    border: 2px solid #8a35c8; /* Cor da borda roxa */
+    border-radius: 50%; /* Para criar um círculo em torno dos ícones */
+    padding: 5px; /* Espaçamento interno da borda */
+    transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.topo-do-site .img-topo-site img {
+.logo-tech img:hover,
+.logo-tech i:hover {
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
+}
+
+.container-foto .img-topo-site img {
     position: relative;
+    width: 450px;
     animation: flutuar 2s ease-in-out infinite alternate;
-    background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
-    background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
-    border-radius: 15%; /* Arredondamento das bordas */
-    border: 5px solid rgba(138, 53, 200, 0.3); /* Borda com efeito sutil */
-    box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Sombra para destacar a imagem */
-    object-fit: cover; /* Ajusta a imagem para cobrir o espaço da imagem */
 }
 
-/* .container-foto img {
-	width: 100%;
-	border-radius: 50%;
-} */
+
 
 @keyframes flutuar {
     0% {
@@ -69,16 +79,3 @@ section.topo-do-site .flex {
     }
 }
 
-@keyframes gradient-animation {
-	0% {
-		background-position: 0% 50%;
-	}
-
-	50% {
-		background-position: 100% 50%;
-	}
-
-	100% {
-		background-position: 0% 50%;
-	}
-}

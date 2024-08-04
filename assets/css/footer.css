@@ -8,22 +8,18 @@ footer .flex {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 20px;
-}
-
-.nome_faby_footer h1 {
-    font-size: 48px;
-    background: linear-gradient(to right, #8a35c8, #00eea2, #8a35c8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline;
+    gap: 40px;
 }
 
 footer .line-footer {
     padding: 20px 0;
     text-align: center;
-
 }
+
+.logo_faby_footer img {
+    width: 80px;
+}
+
 
 .borda {
     border-top: 2px solid #8a35c8;
@@ -36,8 +32,7 @@ footer .line-footer p i {
 
 footer .line-footer p a {
     text-decoration: none;
-    color: #fff;
-    
+    color: #fff;  
 }
 
 .footer-bottom {

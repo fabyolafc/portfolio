@@ -27,9 +27,7 @@ section.sobre .flex {
 }
 
 .img-sobre img{
-    background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
-	background-size: 180% 180%;
-	animation: gradient-animation 5s ease infinite;
+    width: 400px;
     border-radius: 10%;
 }
 

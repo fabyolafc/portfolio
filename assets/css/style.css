@@ -38,11 +38,8 @@ html{
     margin: 0 auto;
 }
 
-.nome_faby h1 {
-    font-size: 48px;
-    background: linear-gradient(to right, #8a35c8, #00eea2, #8a35c8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.logo_faby img{
+    width: 40px;
 }
 
 .flex {
