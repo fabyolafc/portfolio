@@ -76,9 +76,11 @@ div .btn-entra-contato{
     cursor: pointer;
     transition: .2s;
     color: #fff;
+    position: relative;
 }
 
 .btn-curriculo {
+    position: relative;
     margin-bottom: 25px;
 }
 
