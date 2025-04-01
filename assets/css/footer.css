@@ -1,7 +1,20 @@
-footer {
+/* footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
+} */
+
+footer {
+    padding: 80px 4%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.2));
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra mais suave e realista */
+    transition: all 0.3s ease-in-out;
 }
+
+footer:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5); /* Efeito ao passar o mouse */
+}
+
 
 footer .flex {
     display: flex;
@@ -28,11 +41,6 @@ footer .line-contatos {
     width: 60px;
 }
 
-
-.borda {
-    border-top: 2px solid #8a35c8;
-}
-
 footer .line-contatos p i {
     color: #8a35c8;
     font-size: 22px;
@@ -44,8 +52,10 @@ footer .line-contatos p, a {
 }
 
 .footer-bottom {
-    color: #fff;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
-    border-top: 1px solid var(--border-color);
-    padding-top: 20px;
 }

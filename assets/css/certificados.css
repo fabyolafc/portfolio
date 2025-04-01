@@ -55,7 +55,7 @@ section.certificados .flex {
     border-radius: 30px;
     color: #fff;
     border-color: #8a35c8;
-    padding: 5px;
+    padding: 5px 15px;
     cursor: pointer;
 }
 
